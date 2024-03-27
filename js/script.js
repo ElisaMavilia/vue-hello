@@ -4,7 +4,9 @@ const { createApp } = Vue
     data() {
       return {
         message: '<h1>Hello World - Hej världen!</h1>',
-        image: "kungalv-ny-3.jpeg"
+        text: '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, velit soluta voluptate quaerat vitae magni numquam quam quasi minus quisquam dolor delectus, ipsam incidunt aliquam, hic error optio id ullam?</p>',
+        image: "kungalv-ny-3.jpeg",
+        imgclass: "picture",
       }
     },
   }).mount('#app')
