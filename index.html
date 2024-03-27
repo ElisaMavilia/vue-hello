@@ -12,8 +12,8 @@
 <body>
     <div id="app">
         <div class="mt-4 ps-5" v-html="message"></div>
-            <img :class="imgclass" :src="`img/${image}`" alt="Kungalv">
-            <p class="ps-5" v-html="text"></p>
+            <img :class="imgclass" :src="`img/${image}`" alt="Kungalv"><!-- v-bind directive for class (shorthand :) -->
+            <div v-bind="obj" class="w-50"><p class="ps-5" v-html="text"></p></div>
 
         
       
